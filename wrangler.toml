@@ -11,4 +11,4 @@ run_worker_first = ["/api/*"]
 [[d1_databases]]
 binding = "DB"
 database_name = "zyrocorp-leads"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "6e46c682-416c-4887-82a0-d617589f00ab"
