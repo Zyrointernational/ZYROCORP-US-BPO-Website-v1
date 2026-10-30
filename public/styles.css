@@ -3,3 +3,75 @@
 @media(max-width:1050px){.main-nav{gap:15px}.main-nav a{font-size:12px}.brand{min-width:190px}.hero{gap:3vw}.hero h1{letter-spacing:-2.5px}.industry-cards{grid-template-columns:repeat(2,1fr)}.savings-section{gap:35px}}
 @media(max-width:760px){.site-header{height:70px;padding:0 18px}.menu-toggle{display:block}.main-nav{display:none;position:absolute;left:0;right:0;top:70px;background:#fff;padding:18px 22px 24px;border-bottom:1px solid var(--line);box-shadow:0 18px 28px #14284a18;flex-direction:column;align-items:stretch}.main-nav.open{display:flex}.main-nav a{padding:9px 0;font-size:14px}.main-nav .nav-cta{text-align:center;padding:13px}.hero{grid-template-columns:1fr;padding:64px 22px 48px;gap:38px}.hero h1{font-size:clamp(42px,11vw,60px);letter-spacing:-2.5px}.hero-lede{font-size:16px}.hero-visual{min-height:390px}.visual-frame{height:405px}.agent-art{height:315px}.agent-head{top:45px}.industry-strip{justify-content:flex-start}.section{padding:72px 22px}.service-grid,.savings-section,.contact-section{grid-template-columns:1fr}.industry-cards{grid-template-columns:1fr 1fr}.process-grid{grid-template-columns:1fr 1fr}.savings-panel{padding:20px}.savings-total{align-items:flex-start;flex-direction:column}.footer-main{grid-template-columns:1fr 1fr;gap:35px}.footer-main>div:first-child{grid-column:1/-1}.footer-bottom{flex-direction:column}.brand{min-width:0}}
 @media(max-width:460px){.hero h1{font-size:42px}.hero-actions{flex-direction:column}.button{width:100%}.proof-points{gap:9px;flex-direction:column}.industry-cards,.process-grid,.form-grid,.cost-pair{grid-template-columns:1fr}.form-grid .full{grid-column:auto}.service-content{padding:21px}.visual-frame{padding:12px}.stat-one{left:-8px}.stat-two{right:-8px}.footer-main{grid-template-columns:1fr}.footer-main>div:first-child{grid-column:auto}}
+
+/* =========================================
+   ZYROCORP - REFERENCE WEBSITE PHOTOGRAPHS
+   ========================================= */
+
+/* HERO: Customer support team */
+.agent-art {
+  background-image:
+    linear-gradient(to top, rgba(10, 18, 35, 0.15), transparent 45%),
+    url("/assets/hero-customer-support.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.agent-circle,
+.agent-head,
+.agent-body,
+.art-overlay {
+  display: none !important;
+}
+
+/* SERVICE CARD PHOTOGRAPHS */
+.service-art {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service-art::before,
+.service-art::after {
+  display: none;
+}
+
+/* Customer Support */
+.art-calls {
+  background-image:
+    linear-gradient(to top, rgba(10, 18, 35, 0.45), transparent 65%),
+    url("/assets/service-customer-support.jpg");
+  background-position: center 42%;
+}
+
+/* Home Services */
+.art-home {
+  background-image:
+    linear-gradient(to top, rgba(10, 18, 35, 0.40), transparent 65%),
+    url("/assets/service-home-services.jpg");
+  background-position: center;
+}
+
+/* IT Helpdesk */
+.art-it {
+  background-image:
+    linear-gradient(to top, rgba(10, 18, 35, 0.40), transparent 65%),
+    url("/assets/service-it-helpdesk.jpg");
+  background-position: center;
+}
+
+/* Back Office & Logistics */
+.art-ops {
+  background-image:
+    linear-gradient(to top, rgba(10, 18, 35, 0.40), transparent 65%),
+    url("/assets/service-back-office.jpg");
+  background-position: center;
+}
+
+/* Service labels */
+.service-art span {
+  color: #ffffff;
+  background: rgba(16, 26, 50, 0.78);
+  padding: 9px 12px;
+  border-radius: 7px;
+}
